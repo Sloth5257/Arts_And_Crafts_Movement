@@ -9,3 +9,24 @@ canvas
 {
   display: block;
 }
+
+button
+{
+  width: 100px;
+  height: 100px;
+  background-color:none;
+  background-image: url('Object/i_wood_50.png');
+  border:0;
+}
+
+button:hover
+{
+  cursor: pointer;
+}
+
+button:active 
+{
+  padding: 1920px 1080px;
+  background-color:none;
+  background-image: url('Object/Vid5_V.png');
+}
