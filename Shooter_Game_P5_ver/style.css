@@ -1,0 +1,13 @@
+html, body 
+{
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+　overflow-x: hidden;
+  -webkit-user-select: none;
+  overscroll-behavior: contain;
+}
+canvas 
+{
+  display: block;
+}
