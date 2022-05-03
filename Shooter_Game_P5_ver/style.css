@@ -6,6 +6,9 @@ html, body
 　overflow-x: hidden;
   -webkit-user-select: none;
   overscroll-behavior: contain;
+  -moz-user-select: none;   
+  -ms-user-select: none;   
+  user-select: none;
 }
 canvas 
 {
