@@ -1,23 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>藝載</title>
-</head>
+<title>Socket.IO chat</title>
+<style>
+    body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    #form { background: rgba(0, 0, 0, 0.15); padding: 0.25rem; position: fixed; bottom: 0; left: 0; right: 0; display: flex; height: 3rem; box-sizing: border-box; backdrop-filter: blur(10px); }
+    
+    #input { border: none; padding: 0 1rem; flex-grow: 1; border-radius: 2rem; margin: 0.25rem; }
+    #input:focus { outline: none; }
+    #form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
 
+    #messages { list-style-type: none; margin: 0; padding: 0; }
+    #messages > li { padding: 0.5rem 1rem; }
+    #messages > li:nth-child(odd) { background: #efefef; }
+</style>
+<script src="/socket.io/socket.io.js"></script>
+</head>
 <body>
-	<a href="Shooter_Game_P5_ver/index.html">測試</a>
-	<!--
-	\ 藝載的網站架起來啦 /<br><br>
-	
-	<video width="400" controls>
-  		<source src="Test_Video.mp4" type="video/mp4">
-  		<source src="Test_Video.ogg" type="video/ogg">
-  		Your browser does not support HTML video.
-	</video><br><br>
-	<a href="Co_creation_Ink_Making/index.html">P5.JS測試連結</a><br><br>
-	<a href="Ink_Stick_Making/index.html">製墨共創影片</a>
-	<iframe width="185" height="315" src="https://www.youtube.com/live_chat?v=5qap5aO4i9A&embed_domain=sloth5257.github.io" frameborder="0"></iframe>
-	-->
+    <ul id="messages"></ul>
+    <form id="form" action="">
+        <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
+    <script>
+        var socket = io();
+    
+        var messages = document.getElementById('messages');
+        var form = document.getElementById('form');
+        var input = document.getElementById('input');
+    
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (input.value) {
+            socket.emit('chat message', input.value);
+            input.value = '';
+            }
+        });
+    
+        socket.on('chat message', function(msg) {
+            var item = document.createElement('li');
+            item.textContent = msg;
+            messages.appendChild(item);
+            window.scrollTo(0, document.body.scrollHeight);
+        });
+    </script>
 </body>
 </html>
