@@ -1,0 +1,15 @@
+@font-face { font-family: TAIPEISANSTCBETA_R; src: url(../font/TAIPEISANSTCBETA-REGULAR.TTF); }
+
+body
+{
+    background-color: black; 
+    font-family: TAIPEISANSTCBETA_R; color: white;
+    padding: 0; margin: 0;
+}
+
+#P
+{
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 100%; text-align: center;
+    position: fixed;
+}
