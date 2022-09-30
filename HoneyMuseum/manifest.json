@@ -38,7 +38,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/?source=pwa",
+    "start_url": "http://127.0.0.1:5500/index.html",
     "background_color": "#3367D6",
     "display": "standalone",
     "orientation": "portrait-primary",

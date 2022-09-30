@@ -1,0 +1,50 @@
+body { padding: 0; margin: 0; overflow-y: hidden; overflow-x: hidden;}
+
+#BG
+{
+    top: 0%; left: 50%; transform: translate(-50%, 0%);
+    width: 100%; height: auto;
+    position: absolute;
+}
+
+#Logo
+{
+    bottom: 0%; left: 50%; transform: translate(-50%, 0%);
+    width: 100%; height: auto;
+    position: absolute;
+}
+
+#But
+{
+    bottom: 0%; left: 0%;
+    width: 781px; height: 1387px;
+    position: absolute;
+}
+
+#But1
+{
+    top: 49.27%; left: 31.17%; transform: translate(-50%, -50%);
+    width: 50.83%; height: auto;
+    position: absolute;
+}
+
+#But2
+{
+    top: 62.32%; left: 69.97%; transform: translate(-50%, -50%);
+    width: 50.83%; height: auto;
+    position: absolute;
+}
+
+#But3
+{
+    top: 75.09%; left: 31.17%; transform: translate(-50%, -50%);
+    width: 50.83%; height: auto;
+    position: absolute;
+}
+
+#But4
+{
+    top: 87.27%; left: 69.97%; transform: translate(-50%, -50%);
+    width: 50.83%; height: auto;
+    position: absolute;
+}
