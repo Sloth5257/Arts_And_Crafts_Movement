@@ -1,11 +1,43 @@
 {
     "short_name": "CKedit!",
     "name": "CKedit!",
-    "icons": [{
-    "src":"icons/192.png",
-    "sizes": "192×192",
-    "type": "image/png"
-    }],
+    "icons": [
+        {
+            "src":"icons/48.png",
+            "sizes": "48×48",
+            "type": "image/png"
+        },
+        {
+            "src":"icons/96.png",
+            "sizes": "96×96",
+            "type": "image/png"
+        },
+        {
+            "src":"icons/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+        "src":"icons/192.png",
+        "sizes": "192×192",
+        "type": "image/png"
+        },
+        {
+            "src":"icons/256.png",
+            "sizes": "256×256",
+            "type": "image/png"
+        },
+        {
+            "src":"icons/384.png",
+            "sizes": "384×384",
+            "type": "image/png"
+        },
+        {
+            "src":"icons/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
     "start_url": "https://sloth5257.github.io/Arts_And_Crafts_Movement/PWA_test/index.html",
     "background_color": "#000",
     "theme_color": "#536878",
