@@ -3,37 +3,37 @@
     "name": "Honey Museum Web App",
     "icons": [
       {
-        "src": "/images/icons/app_icon_48.png",
+        "src": "images/icons/app_icon_48.png",
         "type": "image/png",
         "sizes": "48x48"
       },
       {
-        "src": "/images/icons/app_icon_96.png",
+        "src": "images/icons/app_icon_96.png",
         "type": "image/png",
         "sizes": "96x96"
       },
       {
-        "src": "/images/icons/app_icon_144.png",
+        "src": "images/icons/app_icon_144.png",
         "type": "image/png",
         "sizes": "144x144"
       },
       {
-        "src": "/images/icons/app_icon_192.png",
+        "src": "images/icons/app_icon_192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/images/icons/app_icon_256.png",
+        "src": "images/icons/app_icon_256.png",
         "type": "image/png",
         "sizes": "256x256"
       },
       {
-        "src": "/images/icons/app_icon_384.png",
+        "src": "images/icons/app_icon_384.png",
         "type": "image/png",
         "sizes": "384x384"
       },
       {
-        "src": "/images/icons/app_icon_512.png",
+        "src": "images/icons/app_icon_512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
