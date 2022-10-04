@@ -1,0 +1,48 @@
+@font-face { font-family: TAIPEISANSTCBETA_B; src: url(../font/TAIPEISANSTCBETA-BOLD.TTF); }
+@font-face { font-family: TAIPEISANSTCBETA_L; src: url(../font/TAIPEISANSTCBETA-LIGHT.TTF); }
+body { padding: 0; margin: 0; overflow-y: hidden; overflow-x: hidden; }
+
+#BG
+{
+    bottom: 0%; left: 50%; transform: translate(-50%, 0%);
+    width: 100%; height: auto;
+    position: absolute;
+}
+
+#Back
+{
+    top: 12.8vw; left: 12.8vw; transform: translate(-50%, -50%);
+    width: 17.5%; height: auto;
+    position: absolute;
+}
+
+#GreenBut
+{
+    top: 48.34%; left: 23.56%; transform: translate(-50%, -50%);
+    width: 26.63%; height: auto;
+    position: absolute;
+}
+
+.Content
+{
+    width: 76vw; height: 100vh;
+    padding-top: 24%; padding-left: 12%; padding-right: 12%;
+}
+
+.Title
+{
+    font-family: TAIPEISANSTCBETA_B; font-size: 3.89vh;
+}
+
+.Text
+{
+    font-family: TAIPEISANSTCBETA_L; line-height: 1.5;
+    padding-top: 4%;
+}
+
+.splide__pagination
+{
+    top: 48.34%; left: 23.56%; transform: translate(-50%, -62.5%);
+    pointer-events: none;
+    position: absolute;
+}

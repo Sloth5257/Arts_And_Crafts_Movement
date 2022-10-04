@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" sizes="48x48"   href="images/icons/app_icon_48.png">
+    <link rel="apple-touch-icon" sizes="96x96"   href="images/icons/app_icon_96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/app_icon_144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/icons/app_icon_192.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="images/icons/app_icon_256.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="images/icons/app_icon_384.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="images/icons/app_icon_512.png">
+    <!--
+    <script src="libraries/socket.js" type="text/javascript"></script>
+    <script src="scripts/config.js"   type="text/javascript"></script>
+    <script src="scripts/detectMobile.js" type="text/javascript"></script>
+    -->
+    <script src="libraries/jquery-3.6.0.js"></script>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="scripts/TakePic.js"></script>
+    <link rel=stylesheet type="text/css" href="css/TakePic.css">
+    <title>Honey Museum</title>
+</head>
+<body>
+    <div id="BlackUI">
+        <img id="PhotoframeRef" src="images/TakePic/04_TakaPic_PhotoframeRef_00.png">
+        <img id="Photoframe1"   src="images/TakePic/04_TakaPic_Photoframe_01.png"  onclick="Photoframe1()">
+        <img id="Photoframe2"   src="images/TakePic/04_TakaPic_Photoframe_02.png"  onclick="Photoframe2()">
+        <img id="Photoframe3"   src="images/TakePic/04_TakaPic_Photoframe_03.png"  onclick="Photoframe3()">
+        <button id="Shutter"    type="button" onclick="KaF()"></button>
+        <button id="Front_Back" type="button" onclick="FB()" ></button>
+    </div>
+    <img id="Back" src="images/Introduction/03_Introduction_Button.png" onclick="location.href='menu.html'">
+</body>
+</html>

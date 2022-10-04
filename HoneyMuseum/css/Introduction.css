@@ -1,5 +1,5 @@
-@font-face { font-family: TAIPEISANSTCBETA_R; src: url(/font/TAIPEISANSTCBETA-REGULAR.TTF); }
-@font-face { font-family: TAIPEISANSTCBETA_L; src: url(/font/TAIPEISANSTCBETA-LIGHT.TTF); }
+@font-face { font-family: TAIPEISANSTCBETA_R; src: url(../font/TAIPEISANSTCBETA-REGULAR.TTF); }
+@font-face { font-family: TAIPEISANSTCBETA_L; src: url(../font/TAIPEISANSTCBETA-LIGHT.TTF); }
 body { padding: 0; margin: 0; overflow-y: hidden; overflow-x: hidden; }
 
 #BG
